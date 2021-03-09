@@ -7,6 +7,7 @@
   <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <script src="https://raw.githack.com/AR-js-org/AR.js/3.3.1/aframe/build/aframe-ar-nft.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+  <script src="https://rawgit.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-click-events/events.js"></script>
   <style>
     * {
       margin: 0; padding: 0;
@@ -24,7 +25,8 @@
       <a-asset-item id="slc" src="slc.glb"></a-asset-item>
     </a-assets>
     <a-marker type='pattern' url='slc.patt'>
-      <a-entity gltf-model="#slc" scale="0.4 0.4 0.4" rotation="230 0 0" animation-mixer></a-entity>
+      <a-entity gltf-model="#slc" scale="0.4 0.4 0.4" rotation="230 0 0"　link="href:https://store.iketei.jp/products/detail.php?product_id=5247"
+                                                                               animation-mixer="loop:repeat"></a-entity>
     </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
